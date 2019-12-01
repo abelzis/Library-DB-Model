@@ -20,8 +20,12 @@ Someone has to work.
 #### Book
 Info about the book itself.
 
+------------------------------------------------------------------------
+
 ### Relationship:
 The main goal of a library is to share books and provide everyone access to cheap or free knowledge. Therefore, three entities of Users (`Readers`), `Workers` and `Books` are present. And `Book Takeout` is a process that connects every entity together. There are many takeouts, but only a few books, a few readers and a few workers. Therefore the relationship of `Book Takeouts` is `many...one` with other tables.
+
+------------------------------------------------------------------------
 
 ### Key information gathering
 There is a need to gather the 3 most important pieces of information from data:
